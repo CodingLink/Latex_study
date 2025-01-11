@@ -1,0 +1,48 @@
+# Compiled files
+*.aux
+*.bbl
+*.blg
+*.brf
+*.fls
+*.fdb_latexmk
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.snm
+*.synctex(busy)
+*.synctex.gz
+*.toc
+*.vrb
+
+# Intermediate and backup files
+*.dvi
+*.ps
+*.eps
+*.pdf
+*.bak
+*.rel
+
+# Build directories
+_build/
+output/
+*.run.xml
+
+# Editors and IDEs
+*~          # Backup files
+Thumbs.db   # Windows thumbnail cache
+.DS_Store   # macOS metadata
+.vscode/    # Visual Studio Code workspace settings
+.idea/      # IntelliJ IDEA workspace settings
+*.swp       # Vim swap files
+*.swo       # Vim swap files
+*.tmp       # Temporary files
+
+# Miscellaneous
+*.bbl.lock
