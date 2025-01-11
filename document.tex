@@ -1,0 +1,42 @@
+% 最基本的 LaTeX 文档结构
+\documentclass{ctexart}  % 指定文档类型为 article（文章）
+% 导入必要的包
+\usepackage[utf8]{inputenc} % 允许使用 UTF-8 编码
+\usepackage{amsmath}       % 提供高级数学公式功能
+\usepackage{graphicx}      % 用于插入图片
+\usepackage{gbt7714}
+\bibliographystyle{gbt7714-numerical}
+\usepackage{hyperref} % 支持超链接
+
+% 开始文档内容
+\begin{document} % 开始文档内容
+	% 标题和作者信息
+	\title{LaTeX 示例文档} % 文档标题
+	\author{Yrian}        % 作者名称
+	\date{\today}          % 使用当前日期
+	\maketitle              % 生成标题
+	
+	% 正文部分
+	\section{引言} % 创建章节，章节标题为“引言”
+	这是一个简单的 LaTeX 示例文档，用于展示基本功能\cite{shi_evolutionary_2024,mauro_real-time_2024}。
+	
+	\section{数学公式} % 创建章节，章节标题为“数学公式”
+	以下是一个简单的数学公式示例\cite{shi_evolutionary_2024,fan_advanced_2024}：
+	\begin{equation} % 插入数学公式
+		E = mc^2 % 爱因斯坦的质能公式
+	\end{equation}
+	
+	\section{插入图片} % 创建章节，章节标题为“插入图片”
+	可以使用以下代码插入图片：
+	\begin{figure}[h] % 创建一个图片环境
+		\centering % 图片居中
+		\caption{示例图片} % 添加图片标题
+		\label{fig:example} % 添加图片标签，方便引用
+	\end{figure}
+	
+	\section{结论} % 创建章节，章节标题为“结论”
+	这就是一个基本的 LaTeX 文档结构。
+	
+\bibliography{ref}
+	% 结束文档
+\end{document} % 结束文档内容
